@@ -8,5 +8,6 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class CategoryComponent {
   constructor(public route: ActivatedRoute) {}
-  ngOnInit(): void {}
+  
+  ngOnInit(): void { }
 }

@@ -28,6 +28,6 @@ export class TolistCategoryComponent {
     });
   }
   filter(en: any) {
-    this.dataSource.filter = en.target.value.trim();
+    this.dataSource.filter = en.target.value.trim ();
   }
 }

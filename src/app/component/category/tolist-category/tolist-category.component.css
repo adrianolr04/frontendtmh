@@ -10,11 +10,13 @@ table {
     /* Reduce el espacio entre las filas */
     .mat-row {
       margin: 0;
+
     }
     
     /* Reduce el espacio entre las celdas de encabezado */
     .mat-header-cell {
-      padding: 3px;
+      padding: 3px ;
+
     }
     
     /* Reduce el espacio entre las celdas de datos */

@@ -29,7 +29,7 @@ export class CreateditCategoryComponent {
     this.form = this.formBuilder.group({
       idCategory: [''],
       nameCategory: ['', Validators.required],
-      detailsCategory: ['', [Validators.required]],
+      detailsCategory: ['', [Validators.required] ],
     });
   }
 
@@ -54,6 +54,7 @@ export class CreateditCategoryComponent {
     const control = this.form.get(nombreCampo);
     if (!control) {
       throw new Error(`Control no encontrado para el campo ${nombreCampo}`);
+      
     }
     return control;
   }
